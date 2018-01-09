@@ -25,7 +25,7 @@ var setupPhotoSphere = function(){
 	var sphere = BABYLON.Mesh.CreateSphere("sphere1", 160, 100, global.scene);
 
 	// load material
-	var texture = new BABYLON.Texture("picture.png", global.scene);
+	var texture = new BABYLON.Texture("picture.jpg", global.scene);
 	
 	// rotate texture
 	texture.wAng = Math.PI/-2;
