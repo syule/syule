@@ -73,11 +73,7 @@ var setupBabylon = function() {
 }
 
 // onload
-$(document).ready(function() {
-	
+$(document).ready(function() {	
 	//setup babylonjs
 	setupBabylon();
 });
-
-
-
